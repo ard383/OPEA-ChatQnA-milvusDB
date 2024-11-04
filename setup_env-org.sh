@@ -6,11 +6,11 @@ devcloud@ubuntu:~/milvus$ cat set_env.sh
 
 
 export host_ip=$(hostname -I | awk '{print $1}')
-export HUGGINGFACEHUB_API_TOKEN="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"
+export HUGGINGFACEHUB_API_TOKEN="<Access Token>"
 export https_proxy=''
 export http_proxy=''
 export no_proxy=''
-export HF_TOKEN="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"
+export HF_TOKEN="<Access Token>"
 export EMBEDDING_MODEL_ID="BAAI/bge-base-en-v1.5"
 export RERANK_MODEL_ID="BAAI/bge-reranker-base"
 export LLM_MODEL_ID="Intel/neural-chat-7b-v3-3"
